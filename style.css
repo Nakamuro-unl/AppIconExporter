@@ -37,7 +37,14 @@ h2 {
 .platform-buttons {
     display: flex;
     gap: 16px;
+    align-items: flex-start;
+}
+
+.platform-buttons label {
+    display: flex;
     align-items: center;
+    gap: 8px;
+    margin-bottom: 0;
 }
 
 label {
