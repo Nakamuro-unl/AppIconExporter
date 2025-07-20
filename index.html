@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>App Icon Exporter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>App Icon Exporter</h1>
+        
+        <div class="section">
+            <h2>Platform</h2>
+            <div class="platform-buttons">
+                <label>
+                    <input type="checkbox" id="ios-checkbox" checked>
+                    <span>iOS</span>
+                </label>
+                <label>
+                    <input type="checkbox" id="android-checkbox" checked>
+                    <span>Android</span>
+                </label>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Export Options</h2>
+            <label>
+                <input type="checkbox" id="app-icons" checked>
+                <span>App Icons</span>
+            </label>
+            <label>
+                <input type="checkbox" id="store-assets">
+                <span>Store Assets (Screenshots)</span>
+            </label>
+        </div>
+
+        <div class="section">
+            <h2>Output Directory</h2>
+            <div class="path-section">
+                <input type="text" id="output-path" readonly placeholder="Select output directory...">
+                <button id="browse-button" class="secondary">Browse</button>
+            </div>
+        </div>
+
+        <button id="export-button" class="primary">Export Icons</button>
+
+        <div id="progress-section" class="progress-section" style="display: none;">
+            <div class="progress-bar">
+                <div id="progress-fill" class="progress-fill"></div>
+            </div>
+            <p id="progress-text">Processing...</p>
+        </div>
+
+        <div id="status-message" class="status-message"></div>
+    </div>
+</body>
+</html>

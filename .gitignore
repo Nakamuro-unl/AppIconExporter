@@ -1,0 +1,19 @@
+# Output files
+/output/**/*.png
+/output/**/*.jpg
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+
+# User-specific files
+*.psd
