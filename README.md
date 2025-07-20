@@ -24,7 +24,7 @@ iOS・Android向けアプリアイコンをPSDファイルから各サイズに�
 
 1. **このリポジトリをクローン**
    ```bash
-   git clone [repository-url]
+   git clone git@github.com:Nakamuro-unl/AppIconExporter.git
    cd AppIconExporter
    ```
 

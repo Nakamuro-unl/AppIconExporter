@@ -11,7 +11,7 @@
 ### 1. リポジトリの取得
 
 ```bash
-git clone [repository-url]
+git clone git@github.com:Nakamuro-unl/AppIconExporter.git
 cd AppIconExporter
 ```
 
