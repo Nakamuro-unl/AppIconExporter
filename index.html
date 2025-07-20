@@ -31,9 +31,33 @@
                 <span>App Icons</span>
             </label>
             <label>
+                <input type="checkbox" id="adaptive-icons">
+                <span>Android Adaptive Icons</span>
+            </label>
+            <label>
                 <input type="checkbox" id="store-assets">
                 <span>Store Assets (Screenshots)</span>
             </label>
+        </div>
+
+        <div class="section" id="adaptive-section" style="display: none;">
+            <h2>Adaptive Icon Settings</h2>
+            <div class="input-group">
+                <label for="foreground-layer">Foreground Layer Name:</label>
+                <input type="text" id="foreground-layer" placeholder="foreground" value="foreground">
+            </div>
+            <div class="input-group">
+                <label for="background-layer">Background Layer Name:</label>
+                <input type="text" id="background-layer" placeholder="background" value="background">
+            </div>
+            <div class="note">
+                <p>📋 Adaptive icon requirements:</p>
+                <ul>
+                    <li>Foreground: Important elements in 66x66dp safe zone</li>
+                    <li>Background: Full 108x108dp coverage</li>
+                    <li>Layer names must match exactly (case-sensitive)</li>
+                </ul>
+            </div>
         </div>
 
         <div class="section">
